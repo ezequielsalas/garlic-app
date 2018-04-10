@@ -1,10 +1,22 @@
 import React,{Component} from 'react';
 
+import Header from './Header';
+
 
 class Home extends Component{
 
 	render(){
-		return (<h1>Hello</h1>);
+		return (
+			<React.fragment>
+			<Header/>
+			<div className='container'>
+				<h1>Soy el home</h1>
+
+
+			</div>
+			</React.fragment>
+
+			);
 	}
 }
 
